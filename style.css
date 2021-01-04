@@ -1,6 +1,29 @@
 body {
   margin: 0px;
   font-family: 'Poppins', sans-serif;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.fixed-header, .fixed-footer {
+  width: 100%;
+  position: fixed;
+  background-color: #333;
+  padding: 10px 0px;
+}
+
+.fixed-header {
+  top: 0px;
+}
+
+.fixed-footer {
+  bottom: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 25px;
+  display: inline-block;
 }
 
 h1 {
